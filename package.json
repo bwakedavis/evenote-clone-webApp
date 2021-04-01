@@ -1,0 +1,34 @@
+{
+  "name": "defiapp-compound-nodejs",
+  "version": "1.0.0",
+  "description": "A defi app that interacts with the compound protocol",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwakedavis/defiapp-compound-nodejs.git"
+  },
+  "keywords": [
+    "compound",
+    "defi",
+    "blockchain"
+  ],
+  "author": "Davis Bwake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwakedavis/defiapp-compound-nodejs/issues"
+  },
+  "homepage": "https://github.com/bwakedavis/defiapp-compound-nodejs#readme",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.1",
+    "web3": "^1.3.4"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
