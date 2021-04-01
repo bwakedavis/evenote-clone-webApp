@@ -37,3 +37,9 @@ You can try out the API like this:
 curl http://localhost:3000/tokenBalance/cDai/0x0d0289e9f3eae696fa38e86fc4456228dc1792a7
 curl http://localhost:3000/cTokenBalance/cDai/0x0d0289e9f3eae696fa38e86fc4456228dc1792a7
 ```
+
+test my heroku deploy here
+
+```bash
+curl https://apple-crisp-85772.herokuapp.com/tokenBalance/cDai/0x0d0289e9f3eae696fa38e86fc4456228dc1792a7
+```
